@@ -29,9 +29,9 @@ if (listadePecas.length < 10){
 let peso = 50;
 
 if (peso < 100){
-    console.log ("Peca peça fora do padrão de peso")
+    console.log ("Peça fora do padrão de peso")
 }else{
-    console.log ("Peca dentro do padrão de peso")
+    console.log ("Peça dentro do padrão de peso")
 
 }
 
@@ -60,7 +60,7 @@ switch (nomePeca.length) {
         console.log("Nome deve ter mais de 3 caracteres, digite um nome adequado")    
 
         break;
-        
+
     default:
         console.log("nome dentro do padrão de mais de 3 caracteres")
         break;
